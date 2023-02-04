@@ -1,0 +1,49 @@
+body{
+    background-size: 107%;
+    
+}
+h1{
+    font-style: italic;
+    color: white;
+}
+#show_sketch{
+    float: right;
+    margin-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+#sketch_target{
+    color: green;
+}
+#sketch_score{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+#sketch_timer{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+canvas{
+    border: 5px solid white;
+    margin-top: 130px;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}    
+@keyframes example{
+    from{box-shadow: 1px 1px 60px grey;}
+    to{box-shadow: 1px 1px 60px white;}
+}
